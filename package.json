@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "backend:dev": "wrangler dev --config backend/wrangler.jsonc",
     "backend:check": "wrangler deploy --dry-run --config backend/wrangler.jsonc",
-    "backend:deploy": "node scripts/deploy-backend.mjs"
+    "backend:deploy": "node scripts/deploy-backend.mjs",
+    "deploy": "wrangler deploy"
   },
   "dependencies": {
     "react": "19.2.6",
@@ -24,5 +25,12 @@
     "wrangler": "4.92.0",
     "tailwindcss": "4.2.1",
     "@tailwindcss/postcss": "4.2.1"
+  },
+  "cloudflare": {
+    "bindings": {
+      "DB": {
+        "description": "Database privato Pierhouse: turni, assenze e registrazioni push. Cloudflare lo crea automaticamente."
+      }
+    }
   }
 }
