@@ -27,7 +27,7 @@ Imposta `VITE_API_BASE_URL` nelle **Settings → Secrets and variables → Actio
 
 ## Voce e notifiche
 
-Gli audio Chatterbox sono salvati in `public/voices/chatterbox` e associati al testo in `lib/chatterbox-clips.json`. Le battute cambiate richiedono un nuovo audio. La voce del dispositivo rimane un'opzione esplicita.
+Gli audio Chatterbox sono salvati in `public/voices/chatterbox` e associati al testo in `lib/chatterbox-clips.json`. Le battute cambiate richiedono un nuovo audio. La spugna usa soltanto Chatterbox; anche le preferenze precedenti della voce di sistema vengono migrate. Ogni battuta mostra la disponibilità dell'audio e un pulsante per ascoltarla singolarmente.
 
 Sul nuovo dominio ogni telefono deve aggiungere nuovamente l'app alla Home e autorizzare le notifiche. Le registrazioni push del vecchio dominio non si trasferiscono. Il pulsante di prova verifica la ricezione effettiva.
 
