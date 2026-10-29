@@ -160,3 +160,5 @@ main{height:auto;overflow:visible}
 .fairness-action p{flex:1;min-width:190px}
 .fairness-action button{min-height:44px}
 @media(max-width:700px){.fairness-action button{width:100%}.mess-vote-actions button{flex:1;justify-content:center}.fairness-panel{padding:16px}}
+
+.house-rules{margin:18px 0}.house-rules h2{font-size:19px}.house-rules ul{margin:12px 0 0;padding-left:22px;color:#d5e2c5;line-height:1.7}.house-rules li{padding:3px 0}
