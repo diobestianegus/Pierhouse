@@ -140,3 +140,23 @@ main{height:auto;overflow:visible}
 .push-status{display:flex;align-items:center;gap:9px;font-weight:650;color:#bac8ad}.push-status.is-active{color:#c6dfa0}.push-feedback{padding:14px;border:1px solid #526841;background:#263b26;border-radius:10px;font-size:14px;line-height:1.6}.reminder-box details{line-height:1.65}.reminder-box summary{cursor:pointer;min-height:44px;padding:10px 0}.reminder-box .eyebrow{font-size:10px}.reminder-box button{min-height:44px}
 
 .push-optin-overlay{z-index:1200;padding:20px;overflow-y:auto}.push-optin-dialog{width:min(100%,500px);max-height:calc(100dvh - 40px);overflow-y:auto;margin:auto!important;padding:28px!important;box-shadow:0 24px 90px #0008}.push-optin-dialog h2{font-size:26px;line-height:1.2}.push-optin-dialog .export-actions{display:flex;flex-wrap:wrap;gap:10px}.push-optin-dialog .primary{flex:1;min-width:180px}
+
+
+/* Controllo qualità, votazioni e recuperi: coerente con il tema PierHouse. */
+.mess-vote-panel{border:1px solid #536344;background:#1b2a20;border-radius:12px;padding:14px;margin:14px 0}
+.mess-vote-heading{display:flex;align-items:center;gap:8px;color:#d6e5b7;font-size:13px}
+.mess-vote-panel .muted{font-size:12px;line-height:1.65;margin:9px 0}
+.mess-vote-actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:12px}
+.mess-vote-actions .outline{min-height:44px}
+.mess-vote-actions [aria-pressed="true"]{background:#405732;border-color:#b7d68d;color:#f5ffe5}
+.mess-report.approved{border-color:#687a47}
+.mess-report.rejected{border-color:#5d665a}
+.mess-report .mess-status.approved{color:#ffe0b2}
+.mess-report .mess-status.rejected{color:#bec9bb}
+.fairness-panel{margin:18px 0;border-color:#6d7e52}
+.fairness-panel h2{font-size:19px;margin-bottom:8px}
+.fairness-panel p{line-height:1.65}
+.fairness-action{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:12px}
+.fairness-action p{flex:1;min-width:190px}
+.fairness-action button{min-height:44px}
+@media(max-width:700px){.fairness-action button{width:100%}.mess-vote-actions button{flex:1;justify-content:center}.fairness-panel{padding:16px}}
